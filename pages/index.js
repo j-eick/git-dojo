@@ -1,11 +1,11 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Link from "next/link"
+
+Link
 
 export default function Home() {
   return (
     <>
-      <p>hi</p>
+      <Link href="/test1">test1</Link> 
     </>
   )
 }
